@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{0E282BFF-A9A9-4143-9927-E9713002D42F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppForAndroid", "MauiAppForAndroid\MauiAppForAndroid.csproj", "{65783855-F4B2-4E52-9D26-C67188778644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{0E282BFF-A9A9-4143-9927-E9713002D42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E282BFF-A9A9-4143-9927-E9713002D42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E282BFF-A9A9-4143-9927-E9713002D42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65783855-F4B2-4E52-9D26-C67188778644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65783855-F4B2-4E52-9D26-C67188778644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65783855-F4B2-4E52-9D26-C67188778644}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{65783855-F4B2-4E52-9D26-C67188778644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65783855-F4B2-4E52-9D26-C67188778644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65783855-F4B2-4E52-9D26-C67188778644}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
