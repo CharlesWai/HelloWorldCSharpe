@@ -2,7 +2,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppForAndroid.MainPage">
-
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"
@@ -34,7 +33,13 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
-
+            <Border Stroke="LightBlue"
+                    BackgroundColor="AliceBlue">
+                <Label HorizontalOptions="Center"
+                       FontSize="Large"
+                       TextColor="DeepSkyBlue"
+                       Text="This is a text generated from MAUI by Charles Wai"/>
+            </Border>
         </VerticalStackLayout>
     </ScrollView>
 
