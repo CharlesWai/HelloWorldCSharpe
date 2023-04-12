@@ -1,6 +1,4 @@
-﻿using Android.OS;
-
-namespace MauiAppForAndroid
+﻿namespace MauiAppForAndroid
 {
     public partial class MainPage : ContentPage
     {
@@ -18,7 +16,6 @@ namespace MauiAppForAndroid
             count++;
             try
             {
-                Debug.StartMethodTracing();
                 vibrator.Vibrate(TimeSpan.FromMilliseconds(1));
             }
             catch (Exception ex)
