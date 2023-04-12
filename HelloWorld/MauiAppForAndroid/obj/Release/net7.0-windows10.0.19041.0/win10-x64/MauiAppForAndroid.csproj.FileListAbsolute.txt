@@ -1,0 +1,12 @@
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Release\net7.0-windows10.0.19041.0\win10-x64\MauiAppForAndroid.csproj.AssemblyReference.cache
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Release\net7.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Release\net7.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Release\net7.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Release\net7.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Release\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Release\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Release\net7.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Release\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Release\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Release\net7.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Release\net7.0-windows10.0.19041.0\win10-x64\MauiAppForAndroid.GeneratedMSBuildEditorConfig.editorconfig
