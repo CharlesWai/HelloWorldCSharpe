@@ -1,27 +1,31 @@
-﻿using Xamarin.Android;
-using Xamarin.Kotlin;
-using Android.OS;
-using Android.Content;
+﻿using Android.OS;
 
 namespace MauiAppForAndroid
 {
     public partial class MainPage : ContentPage
     {
-        private Vibrator vibrator;
+        private IVibration vibrator;
         int count = 0;
 
         public MainPage()
         {
-            this.BindingContext = this;
             InitializeComponent();
-            vibrator = Vibrator.FromContext((Context)this.BindingContext);
-            
+            vibrator = Vibration.Default;       
         }
 
         private void OnCounterClicked(object sender, EventArgs e)
         {
             count++;
-            vibrator.Vibrate(VibrationEffect.EffectClick);
+            try
+            {
+                Debug.StartMethodTracing();
+                vibrator.Vibrate(TimeSpan.FromMilliseconds(1));
+            }
+            catch (Exception ex)
+            {
+                
+            }
+            
             if (count == 1)
                 CounterBtn.Text = $"Clicked {count} time";
             else
