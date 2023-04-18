@@ -1,46 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppForAndroid.MainPage">
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
-
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
-            <Border Stroke="LightBlue"
-                    BackgroundColor="AliceBlue">
-                <Label HorizontalOptions="Center"
-                       FontSize="Large"
-                       TextColor="DeepSkyBlue"
-                       Text="This is a text generated from MAUI by Charles Wai"/>
+             x:Class="MauiAppForAndroid.MainPage"
+             xmlns:vm="clr-namespace:MauiAppForAndroid.ViewModels">
+    <ContentPage.BindingContext>
+        <vm:MainPageViewModel/>
+    </ContentPage.BindingContext>
+    <Border>
+        <Grid IsVisible="True">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0">
+                <StackLayout Orientation="Horizontal">
+                    <Button Text="连接 CAN"
+                            Command="{Binding ConnectCommand}">
+                        <Button.Triggers>
+                            <DataTrigger TargetType="Button" Binding="{Binding Connected}" Value="False">
+                                <Setter Property="Text" Value="连接 CAN"/>
+                            </DataTrigger>
+                            <DataTrigger TargetType="Button" Binding="{Binding Connected}" Value="True">
+                                <Setter Property="Text" Value="断开 CAN"/>
+                            </DataTrigger>
+                        </Button.Triggers>
+                    </Button>
+                </StackLayout>
             </Border>
-        </VerticalStackLayout>
-    </ScrollView>
-
+            <Border Grid.Row="1">
+                <ListView></ListView>
+            </Border>
+            <Border Grid.Row="2">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="80"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0">
+                        <Entry HorizontalTextAlignment="Start"
+                               Text="{Binding SendOutContent}"></Entry>
+                    </Border>
+                    <Border Grid.Column="1">
+                        <Button Text="发送"
+                                Command="{Binding SendCommand}"></Button>
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
 </ContentPage>

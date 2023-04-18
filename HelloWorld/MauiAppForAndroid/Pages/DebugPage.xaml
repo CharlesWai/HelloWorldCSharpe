@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppForAndroid.Pages.DebugPage"
+             Title="DebugPage"
+             xmlns:vm="clr-namespace:MauiAppForAndroid.ViewModels">
+    <ContentPage.BindingContext>
+        <vm:DebugPageViewModel/>
+    </ContentPage.BindingContext>
+    <Border>
+        <Grid IsVisible="True">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0">
+                <StackLayout Orientation="Horizontal"
+                             Spacing="5">
+                    <Label VerticalOptions="Center">Debug IP:</Label>
+                    <Entry WidthRequest="130"
+                           Text="{Binding DebugIp}"></Entry>
+                    <Label VerticalOptions="Center">Port:</Label>
+                    <Entry WidthRequest="55"
+                           Text="{Binding DebugPort}"></Entry>
+                    <Button Text="连接 CAN"
+                            Command="{Binding ConnectCommand}">
+                        <Button.Triggers>
+                            <DataTrigger TargetType="Button" Binding="{Binding Connected}" Value="False">
+                                <Setter Property="Text" Value="连接 CAN"/>
+                            </DataTrigger>
+                            <DataTrigger TargetType="Button" Binding="{Binding Connected}" Value="True">
+                                <Setter Property="Text" Value="断开 CAN"/>
+                            </DataTrigger>
+                        </Button.Triggers>
+                    </Button>
+                </StackLayout>
+            </Border>
+            <Border Grid.Row="1">
+                <ListView ItemsSource="{Binding ReceivedData}"></ListView>
+            </Border>
+            <Border Grid.Row="2">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="80"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0">
+                        <StackLayout Orientation="Horizontal">
+                            <Entry HorizontalTextAlignment="Start"
+                                   Text="{Binding SendOutContent}"
+                                   WidthRequest="220"></Entry>
+                            <CheckBox IsChecked="{Binding HexSendOut}"></CheckBox>
+                            <Label VerticalOptions="Center">Hex</Label>
+                        </StackLayout>
+                       
+                    </Border>
+                    <Border Grid.Column="1">
+                        <Button Text="发送"
+                                Command="{Binding SendCommand}"></Button>
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</ContentPage>

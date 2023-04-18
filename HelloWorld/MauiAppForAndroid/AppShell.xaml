@@ -4,11 +4,21 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MauiAppForAndroid"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:page="clr-namespace:MauiAppForAndroid.Pages"
+    Shell.FlyoutBehavior="Flyout">
 
-    <ShellContent
-        Title="Home"
+    <!--<ShellContent
+        Title="HomePage"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage" />-->
+    <ShellContent Title="SettingPage"
+                  ContentTemplate="{DataTemplate page:SettingPage}"
+                  Route="SettingPage"/>
+    <ShellContent Title="DebugPage"
+                  ContentTemplate="{DataTemplate page:DebugPage}"
+                  Route="DebugPage"/>
+    <ShellContent Title="AboutPage"
+                  ContentTemplate="{DataTemplate page:AboutPage}"
+                  Route="AboutPage"/>
 
 </Shell>

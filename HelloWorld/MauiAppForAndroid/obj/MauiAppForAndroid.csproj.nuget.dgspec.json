@@ -23,7 +23,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0-android",
+          "net7.0-android33.0",
           "net7.0-ios",
           "net7.0-maccatalyst",
           "net7.0-windows10.0.19041.0"
@@ -35,7 +35,7 @@
         },
         "frameworks": {
           "net7.0-android33.0": {
-            "targetAlias": "net7.0-android",
+            "targetAlias": "net7.0-android33.0",
             "projectReferences": {}
           },
           "net7.0-ios16.1": {
@@ -59,8 +59,12 @@
       },
       "frameworks": {
         "net7.0-android33.0": {
-          "targetAlias": "net7.0-android",
+          "targetAlias": "net7.0-android33.0",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -89,6 +93,10 @@
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "System.Net.Sockets": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -179,6 +187,10 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -207,6 +219,10 @@
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "System.Net.Sockets": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -242,6 +258,10 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -270,6 +290,10 @@
               "target": "Package",
               "version": "[7.0.59, )",
               "autoReferenced": true
+            },
+            "System.Net.Sockets": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -306,6 +330,10 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -350,6 +378,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "System.Net.Sockets": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -366,10 +398,6 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.4, 7.0.4]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
               "version": "[7.0.4, 7.0.4]"
             },
             {
@@ -418,10 +446,7 @@
         "android-x86": {
           "#import": []
         },
-        "iossimulator-x64": {
-          "#import": []
-        },
-        "maccatalyst-arm64": {
+        "ios-arm64": {
           "#import": []
         },
         "maccatalyst-x64": {
