@@ -1,4 +1,6 @@
-﻿using MauiAppForAndroid.Extensions;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using MauiAppForAndroid.Extensions;
+using MauiAppForAndroid.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,16 +12,25 @@ using System.Threading.Tasks;
 
 namespace MauiAppForAndroid.Services
 {
-    public class CANservice : ICANService
+    public class CANservice : ObservableObject, ICANService 
     {
         private Socket _socket;
         private byte[] _bytes = new byte[1024];
+        public event Action<SimpleData> DataReceived;
         private CancellationTokenSource _cancellationTokenSource = new CancellationTokenSource();
 
         public bool Connected { get => (bool)_socket?.Connected; }
+        private string _ip = "192.168.1.7";
+        private int _port = 58121;
+        public string DebugIp { get => _ip; set => SetProperty(ref _ip , value); }
+        public int Port { get => _port; set =>SetProperty(ref _port ,value); } 
         public CANservice()
         {
-            //InitSoc();
+            InitSoc();
+        }
+        ~CANservice()
+        {
+            _socket?.Dispose();
         }
         private void InitSoc()
         {
@@ -35,12 +46,25 @@ namespace MauiAppForAndroid.Services
             
             Task.Run(() =>
             {
-                while (_socket.Connected)
+                while (!_cancellationTokenSource.IsCancellationRequested)
                 {
-                    int count = _socket.ReceiveAsync((ArraySegment<byte>)_bytes).Result;
-                    if (count > 0)
+                    Thread.Sleep(1);
+                    if (_socket.Connected)
                     {
-                        Debug.WriteLine($"Time: {DateTime.Now} , received message: {Encoding.UTF8.GetString(_bytes, 0, count)}");
+                        int count = _socket.ReceiveAsync((ArraySegment<byte>)_bytes).Result;
+                        if (count > 0)
+                        {
+                            Debug.WriteLine($"Time: {DateTime.Now} , received message: {Encoding.UTF8.GetString(_bytes, 0, count)}");
+                            string msg = Encoding.Default.GetString(_bytes, 0, count);
+                            //string msg = string.Empty;//解码有问题
+                            string hexMsg = string.Join(" ", _bytes).Trim();
+                            int idx = hexMsg.IndexOf("\0");
+                            hexMsg = hexMsg.Substring(0, idx);
+                            //hexMsg = string.Empty;
+                            Debug.WriteLine($"Time: {DateTime.Now} , receive bytes:{hexMsg}");
+                            SimpleData data = new SimpleData() { DtNow = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss fff"), Message = msg, HexMessage = hexMsg };
+                            DataReceived?.Invoke(data);
+                        }
                     }
                 }                
             }, _cancellationTokenSource.Token);
@@ -50,7 +74,7 @@ namespace MauiAppForAndroid.Services
             try
             {
                 //_socket.Connect(Dns.GetHostName(), 58121);
-                _socket.ConnectAsync("192.168.1.7", 58121);
+                _socket?.ConnectAsync(DebugIp, Port);
             }
             catch(Exception ex) 
             { 
@@ -63,7 +87,7 @@ namespace MauiAppForAndroid.Services
         {
             try
             {
-                _socket.Disconnect(false);
+                _socket?.Disconnect(true);
             }
             catch
             {
@@ -109,8 +133,6 @@ namespace MauiAppForAndroid.Services
                 byte[] bytes= msg.ToBytesFromHexString();
                 _socket?.Send(bytes);
             }
-        }
-
-        
+        } 
     }
 }

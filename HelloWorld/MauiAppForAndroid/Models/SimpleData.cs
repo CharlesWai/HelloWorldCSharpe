@@ -9,7 +9,7 @@ namespace MauiAppForAndroid.Models
 {
     public class SimpleData :ObservableObject
     {
-        public DateTime DtNow { get; set; }
+        public string DtNow { get; set; }
         public string Message { get; set; }
         public string HexMessage { get; set; }
     }

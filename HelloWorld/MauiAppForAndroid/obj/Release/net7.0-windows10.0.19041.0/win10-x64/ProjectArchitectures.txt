@@ -1,1 +1,0 @@
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\MauiAppForAndroid.csproj;x64

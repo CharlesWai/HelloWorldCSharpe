@@ -7,16 +7,16 @@
     xmlns:page="clr-namespace:MauiAppForAndroid.Pages"
     Shell.FlyoutBehavior="Flyout">
 
-    <!--<ShellContent
+    <ShellContent
         Title="HomePage"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />-->
-    <ShellContent Title="SettingPage"
-                  ContentTemplate="{DataTemplate page:SettingPage}"
-                  Route="SettingPage"/>
+        Route="MainPage" />
     <ShellContent Title="DebugPage"
                   ContentTemplate="{DataTemplate page:DebugPage}"
                   Route="DebugPage"/>
+    <ShellContent Title="SettingPage"
+                  ContentTemplate="{DataTemplate page:SettingPage}"
+                  Route="SettingPage"/>
     <ShellContent Title="AboutPage"
                   ContentTemplate="{DataTemplate page:AboutPage}"
                   Route="AboutPage"/>

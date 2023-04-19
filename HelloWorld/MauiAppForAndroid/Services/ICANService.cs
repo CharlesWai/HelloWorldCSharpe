@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MauiAppForAndroid.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,9 @@ namespace MauiAppForAndroid.Services
 {
     public interface ICANService
     {
+        event Action<SimpleData> DataReceived;
+        string DebugIp { get; set; }
+        int Port { get; set; }
         bool Connected { get; }
         bool Connect();
         bool Disconnect();

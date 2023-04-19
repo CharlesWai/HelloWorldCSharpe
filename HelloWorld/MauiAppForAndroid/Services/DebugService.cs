@@ -28,6 +28,10 @@ namespace MauiAppForAndroid.Services
         {
             InitSoc();
         }
+        ~DebugService()
+        {
+            _socket?.Dispose();
+        }
         private void InitSoc()
         {
             try
@@ -40,27 +44,27 @@ namespace MauiAppForAndroid.Services
 
             }
 
-            //Task.Run(() =>
-            //{
-            //    while (!_cancellationTokenSource.IsCancellationRequested)
-            //    {
-            //        Thread.Sleep(1);
-            //        if (_socket.Connected)
-            //        {
-            //            int count = _socket.ReceiveAsync((ArraySegment<byte>)_bytes).Result;
-            //            if (count > 0)
-            //            {
-            //                byte[] realBytes = null;
-            //                Array.ConstrainedCopy(_bytes, 0, realBytes, 0, count);
-            //                string msg = Encoding.UTF8.GetString(_bytes, 0, count);
-            //                string hexMsg = string.Join(" ", realBytes);
-            //                Debug.WriteLine($"Time: {DateTime.Now} , received message: {msg}, receive bytes:{hexMsg}");
-            //                SimpleData data = new SimpleData() { DtNow = DateTime.Now, Message = msg, HexMessage = hexMsg };
-            //                DataReceived?.Invoke(data);
-            //            }
-            //    }
-            //}
-            //}, _cancellationTokenSource.Token);
+            Task.Run(() =>
+            {
+                while (!_cancellationTokenSource.IsCancellationRequested)
+                {
+                    Thread.Sleep(1);
+                    if (_socket.Connected)
+                    {
+                        int count = _socket.ReceiveAsync((ArraySegment<byte>)_bytes).Result;
+                        if (count > 0)
+                        {
+                            byte[] realBytes = null;
+                            Array.ConstrainedCopy(_bytes, 0, realBytes, 0, count);
+                            string msg = Encoding.UTF8.GetString(_bytes, 0, count);
+                            string hexMsg = string.Join(" ", realBytes);
+                            Debug.WriteLine($"Time: {DateTime.Now} , received message: {msg}, receive bytes:{hexMsg}");
+                            SimpleData data = new SimpleData() { DtNow = DateTime.Now.ToString(), Message = msg, HexMessage = hexMsg };
+                            DataReceived?.Invoke(data);
+                        }
+                    }
+                }
+            }, _cancellationTokenSource.Token);
         }
         public bool Connect()
         {
