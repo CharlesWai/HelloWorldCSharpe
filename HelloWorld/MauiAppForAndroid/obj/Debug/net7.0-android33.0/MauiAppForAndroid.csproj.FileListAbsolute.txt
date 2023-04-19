@@ -454,7 +454,6 @@ D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\n
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\assets\Xamarin.Kotlin.StdLib.Jdk8.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\assets\Xamarin.KotlinX.Coroutines.Android.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\assets\Xamarin.KotlinX.Coroutines.Core.Jvm.dll
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\typemaps.x86_64.ll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\AndroidManifest.xml
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\AndroidManifest.xml
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\__environment__.txt
@@ -463,7 +462,6 @@ D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\n
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\bin\mono.android.jar
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\static.flag
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\buildid.txt
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\environment.x86_64.ll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\src\androidx\activity\ktx\R.java
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\src\androidx\activity\R.java
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\src\androidx\annotation\experimental\R.java
@@ -942,12 +940,6 @@ D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\n
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\src\mono\MonoPackageManager_Resources.java
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\bin\packaged_resources
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\src\com\companyname\mauiappforandroid\R.java
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\compressed_assemblies.x86_64.ll
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\typemaps.x86_64.o
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\environment.x86_64.o
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\compressed_assemblies.x86_64.o
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\jni_remap.x86_64.o
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\app_shared_libraries\x86_64\libxamarin-app.so
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\bin\classes.dex
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\bin\classes2.dex
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\stamp\_CleanIntermediateIfNeeded.stamp
@@ -971,3 +963,11 @@ D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\n
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\assets\System.Runtime.Extensions.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\assets\System.Runtime.Serialization.Formatters.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\assets\System.Xml.dll
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\typemaps.arm64-v8a.ll
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\environment.arm64-v8a.ll
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\compressed_assemblies.arm64-v8a.ll
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\typemaps.arm64-v8a.o
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\environment.arm64-v8a.o
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\compressed_assemblies.arm64-v8a.o
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\android\jni_remap.arm64-v8a.o
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-android33.0\app_shared_libraries\arm64-v8a\libxamarin-app.so

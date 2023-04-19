@@ -18,5 +18,6 @@ namespace MauiAppForAndroid.Services
         void GetCANInfo();
         void Dispose();
         void SendOnce(string msg,bool hexStr);
+        void StartListen();
     }
 }

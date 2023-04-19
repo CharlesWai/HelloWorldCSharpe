@@ -29,17 +29,25 @@ namespace MauiAppForAndroid.ViewModels
 
         private bool _connected = false;
         public bool Connected { get => _connected; set => SetProperty(ref _connected, value); }
+
+        private ICommand _clearCommand = null;
+        public ICommand ClearCommand { get => _clearCommand ?? new RelayCommand(() => { ReceivedData.Clear(); }); 
+                                       set => SetProperty(ref _clearCommand,value); }
+
         private ICommand _connectCommand;
         public ICommand ConnectCommand
         {
             get => _connectCommand ?? new RelayCommand(() =>
             {
+                //按钮震动效果
+                vibrator.Vibrate(TimeSpan.FromMilliseconds(1));
                 if (!_connected)
                 {
                     Connected = (bool)_canService?.Connect();
                     if (Connected)
                     {
                         _canService.DataReceived += OnDataReceived;
+                        _canService.StartListen();
                     }
                 }
                 else
@@ -64,6 +72,8 @@ namespace MauiAppForAndroid.ViewModels
                     return;
                 }
                 //_canService.GetCANInfo();
+                //按钮震动效果
+                vibrator.Vibrate(TimeSpan.FromMilliseconds(1));
                 _canService.SendOnce(SendOutContent, HexSendOut);
             }); set => SetProperty(ref _sendCommand, value);
         }
@@ -75,6 +85,7 @@ namespace MauiAppForAndroid.ViewModels
         private void OnDataReceived(SimpleData obj)
         {
             App.Current.Dispatcher.Dispatch(() => { ReceivedData.Add(obj); });
+            
         }
     }
 }

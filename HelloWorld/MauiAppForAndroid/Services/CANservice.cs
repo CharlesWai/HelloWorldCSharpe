@@ -8,6 +8,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace MauiAppForAndroid.Services
@@ -44,30 +45,7 @@ namespace MauiAppForAndroid.Services
 
             }
             
-            Task.Run(() =>
-            {
-                while (!_cancellationTokenSource.IsCancellationRequested)
-                {
-                    Thread.Sleep(1);
-                    if (_socket.Connected)
-                    {
-                        int count = _socket.ReceiveAsync((ArraySegment<byte>)_bytes).Result;
-                        if (count > 0)
-                        {
-                            Debug.WriteLine($"Time: {DateTime.Now} , received message: {Encoding.UTF8.GetString(_bytes, 0, count)}");
-                            string msg = Encoding.Default.GetString(_bytes, 0, count);
-                            //string msg = string.Empty;//解码有问题
-                            string hexMsg = string.Join(" ", _bytes).Trim();
-                            int idx = hexMsg.IndexOf("\0");
-                            hexMsg = hexMsg.Substring(0, idx);
-                            //hexMsg = string.Empty;
-                            Debug.WriteLine($"Time: {DateTime.Now} , receive bytes:{hexMsg}");
-                            SimpleData data = new SimpleData() { DtNow = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss fff"), Message = msg, HexMessage = hexMsg };
-                            DataReceived?.Invoke(data);
-                        }
-                    }
-                }                
-            }, _cancellationTokenSource.Token);
+            
         }
         public bool Connect()
         {
@@ -133,6 +111,37 @@ namespace MauiAppForAndroid.Services
                 byte[] bytes= msg.ToBytesFromHexString();
                 _socket?.Send(bytes);
             }
-        } 
+        }
+
+        public void StartListen()
+        {
+            _cancellationTokenSource?.Cancel();
+            _cancellationTokenSource = null;
+            _cancellationTokenSource = new CancellationTokenSource();
+            Task.Run(() =>
+            {
+                while (true)
+                {
+                    Thread.Sleep(1);
+                    if (_socket.Connected)
+                    {
+                        int count = _socket.ReceiveAsync((ArraySegment<byte>)_bytes).Result;
+                        if (count > 0)
+                        {
+                            Debug.WriteLine($"Time: {DateTime.Now} , received message: {Encoding.UTF8.GetString(_bytes, 0, count)}");
+                            string msg = Encoding.Default.GetString(_bytes, 0, count);
+                            //string msg = string.Empty;//解码有问题
+                            string hexMsg = string.Join(" ", _bytes).Trim();
+                            int idx = hexMsg.IndexOf("\0");
+                            hexMsg = hexMsg.Substring(0, idx);
+                            //hexMsg = string.Empty;
+                            Debug.WriteLine($"Time: {DateTime.Now} , receive bytes:{hexMsg}");
+                            SimpleData data = new SimpleData() { DtNow = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss fff"), Message = msg, HexMessage = hexMsg };
+                            DataReceived?.Invoke(data);
+                        }
+                    }
+                }
+            }, _cancellationTokenSource.Token);
+        }
     }
 }

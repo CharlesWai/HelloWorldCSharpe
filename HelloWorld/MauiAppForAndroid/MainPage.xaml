@@ -28,6 +28,7 @@
                             <DataTrigger TargetType="Button" Binding="{Binding Connected}" Value="False">
                                 <Setter Property="Text" Value="连接 CAN"/>
                                 <Setter Property="Background" Value="Lime"/>
+                                <Setter Property="TextColor" Value="Black"/>
                             </DataTrigger>
                             <DataTrigger TargetType="Button" Binding="{Binding Connected}" Value="True">
                                 <Setter Property="Text" Value="断开 CAN"/>
@@ -35,10 +36,15 @@
                             </DataTrigger>
                         </Button.Triggers>
                     </Button>
+                    <Button Text="清空"
+                            TextColor="Black"
+                            BackgroundColor="LightGray"
+                            Command="{Binding ClearCommand}"></Button>
                 </StackLayout>
             </Border>
             <Border Grid.Row="1">
-                <ListView ItemsSource="{Binding ReceivedData}">
+                <ListView ItemsSource="{Binding ReceivedData}" 
+                          x:Name="lv_received">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
