@@ -40,7 +40,7 @@ namespace MauiAppForAndroid.Services
                 _socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
                 _socket.ReceiveTimeout = 0;
             }
-            catch (Exception ex)
+            catch
             {
 
             }
@@ -54,7 +54,7 @@ namespace MauiAppForAndroid.Services
                 //_socket.Connect(Dns.GetHostName(), 58121);
                 _socket?.ConnectAsync(DebugIp, Port);
             }
-            catch(Exception ex) 
+            catch
             { 
                 _socket?.Shutdown(SocketShutdown.Both);
             }
@@ -89,7 +89,7 @@ namespace MauiAppForAndroid.Services
                 0xaa
             });
             }
-            catch (Exception ex)
+            catch
             {
                 _socket?.Shutdown(SocketShutdown.Both);
             }            
