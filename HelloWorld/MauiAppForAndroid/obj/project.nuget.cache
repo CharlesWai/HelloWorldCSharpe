@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M9DwIOqY3u5ZygltMyWe382xV9ZSF2nJ7odow5pX7tJzki6U1LF3Byg45BfcsEvvUzKLJTiuh9cRcmYgWD17Rw==",
+  "dgSpecHash": "QZDx4ERB6cZ1AREPvjLUP6ogz+Hc+I0wj9qSS8QwTJmZ5Tw3n8R5QXldoTb8UdaZtkHdz4aGTmZFkKmJlSbLIQ==",
   "success": true,
   "projectFilePath": "D:\\Programming\\CSharp\\HelloWorldCSharpe\\HelloWorld\\MauiAppForAndroid\\MauiAppForAndroid.csproj",
   "expectedPackageFiles": [
@@ -16,8 +16,8 @@
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.4\\microsoft.graphics.win2d.1.0.4.nupkg.sha512",
-    "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.maui.graphics\\7.0.59\\microsoft.maui.graphics.7.0.59.nupkg.sha512",
-    "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.59\\microsoft.maui.graphics.win2d.winui.desktop.7.0.59.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.maui.graphics\\7.0.81\\microsoft.maui.graphics.7.0.81.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.81\\microsoft.maui.graphics.win2d.winui.desktop.7.0.81.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
@@ -172,9 +172,9 @@
     "C:\\Users\\JanlamWai\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
-    "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.4\\microsoft.aspnetcore.app.runtime.win-x64.7.0.4.nupkg.sha512",
-    "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.4.nupkg.sha512",
-    "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.4\\microsoft.netcore.app.runtime.win-x64.7.0.4.nupkg.sha512"
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.5\\microsoft.aspnetcore.app.runtime.win-x64.7.0.5.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.5.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.5\\microsoft.netcore.app.runtime.win-x64.7.0.5.nupkg.sha512"
   ],
   "logs": []
 }
