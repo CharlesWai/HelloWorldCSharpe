@@ -16,7 +16,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Person person = new Person() {Name ="CharlesWai", Age = 27 };
+            Person person = new Person() { Name = "CharlesWai", Age = 27 };
             Console.WriteLine($"Hello {person.Name}, you are {person.Age} years old");
             Console.WriteLine("Hello World!");
             Console.WriteLine();
@@ -29,7 +29,12 @@ namespace HelloWorld
                 if (question == "") { break; }
                 string responseContent = CallChatGPTAPI(question).Result;
                 ChatCompletionResponse response = JsonConvert.DeserializeObject<ChatCompletionResponse>(responseContent);
-                string message = response.choices[0].message.content;
+                string message = string.Empty;
+                if (response != null)
+                {
+                    message = response.choices[0].message.content;
+                }
+                else { message = responseContent; }
                 Console.WriteLine();
                 Console.WriteLine(message);
                 Console.WriteLine();
@@ -55,7 +60,7 @@ namespace HelloWorld
                 {
                     string line;
                     line = reader.ReadLine();
-                    
+
                     if (line != null)
                     {
                         apiKey = line;
@@ -66,7 +71,7 @@ namespace HelloWorld
                     }
                 }
             }
-            
+
             string apiUrl = "https://api.openai.com/v1/chat/completions";
 
             httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", apiKey);
@@ -86,7 +91,7 @@ namespace HelloWorld
         #endregion ChatGPT
     }
 
-    
+
 
     public class ChatCompletionResponse
     {
