@@ -7,11 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiAppForAndroid", "MauiAppForAndroid\MauiAppForAndroid.csproj", "{65783855-F4B2-4E52-9D26-C67188778644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic.WPF", "Generic.WPF\Generic.WPF.csproj", "{FDFF1CE9-4E9A-45BE-BF3E-47B9847FFAB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic.WPF", "Generic.WPF\Generic.WPF.csproj", "{FDFF1CE9-4E9A-45BE-BF3E-47B9847FFAB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic.Library", "Generic.Library\Generic.Library.csproj", "{152097DC-6B2A-4173-815B-98A9C5DC0F7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic.Library", "Generic.Library\Generic.Library.csproj", "{152097DC-6B2A-4173-815B-98A9C5DC0F7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic.UnitTest", "Generic.UnitTest\Generic.UnitTest.csproj", "{9A920676-8C13-42A6-BE1C-BE005E1F2764}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic.UnitTest", "Generic.UnitTest\Generic.UnitTest.csproj", "{9A920676-8C13-42A6-BE1C-BE005E1F2764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI.ChatGPT", "OpenAI.ChatGPT\OpenAI.ChatGPT.csproj", "{0D26E79C-A304-4BFC-B19A-F2BBE629494D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{9A920676-8C13-42A6-BE1C-BE005E1F2764}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A920676-8C13-42A6-BE1C-BE005E1F2764}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A920676-8C13-42A6-BE1C-BE005E1F2764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D26E79C-A304-4BFC-B19A-F2BBE629494D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D26E79C-A304-4BFC-B19A-F2BBE629494D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D26E79C-A304-4BFC-B19A-F2BBE629494D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D26E79C-A304-4BFC-B19A-F2BBE629494D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

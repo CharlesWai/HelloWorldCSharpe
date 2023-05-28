@@ -1,8 +1,11 @@
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\HelloWorld\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\HelloWorld\bin\Debug\Newtonsoft.Json.xml
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.SuggestedBindingRedirects.cache
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CopyComplete
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb

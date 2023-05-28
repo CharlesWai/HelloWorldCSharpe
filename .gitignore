@@ -1,0 +1,183 @@
+# Visual Studio / Xamarin / Mono generated files
+*.suo
+*.user
+*.userprefs
+*.lock.json
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# Visual Studio 2017/2019 auto generated files
+Generated\ Files/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JustCode
+.JustCode
+
+# TeamCity
+_TeamCity*
+
+# DotCover
+*.dotCover
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# TODO: Comment the next line if you want to checkin your web deploy settings
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Microsoft Azure Emulator
+ecf/
+rcf/
+
+# Windows Store app package directory
+AppPackages/
+BundleArtifacts/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+*.dll.a
+*.lib.a
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+*.apk
+*.msi
+
+# NuGet
+**/packages/
+
+# Windows Debug/Release Files
+*.pdb
+*.dll.mdb
+*.exe.mdb
+*.generated.cs
+
+# Mac Debug/Release Files
+*.dSYM/
+*.ipa.dSYM/
+*.dll.mdb.dSYM/
+*.exe.mdb.dSYM/
+*.generated.cs.dSYM/
+
+# Linux Debug/Release Files
+*.so.*
+*.dll.so.*
+*.exe.so.*
+
+# Logs
+*.log
+*.txt
+*.config
+
+# Resharper files
+_ReSharper*/
+
+# Rider
+.idea/
+*.sln.iml
+
+# VSCode
+.vscode/
+
+# Test files
+*.testsettings
+*.testhost
+*.trx
+
+# NPM
+**/node_modules/
+**/npm-debug.log
+**/yarn.lock
+
+# ESLint
+.eslintcache
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.nuget/
+
+# Build results
+[Dd]ebug/
