@@ -375,6 +375,14 @@
         "runtime": {
           "Generic.Library.dll": {}
         }
+      },
+      "MvCamCtrl.Net/4.0.0.4": {
+        "runtime": {
+          "MvCamCtrl.Net.dll": {
+            "assemblyVersion": "4.0.0.4",
+            "fileVersion": "4.0.0.4"
+          }
+        }
       }
     }
   },
@@ -596,6 +604,11 @@
     },
     "Generic.Library/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MvCamCtrl.Net/4.0.0.4": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

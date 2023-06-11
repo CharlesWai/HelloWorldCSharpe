@@ -215,7 +215,6 @@ D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\n
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.a
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-ios\iossimulator-x64\mauiimage.inputs
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-ios\iossimulator-x64\mauifont.inputs
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\obj\Debug\net7.0-ios\iossimulator-x64\mauisplash.inputs

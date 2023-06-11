@@ -1,11 +1,14 @@
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\bin\Debug\net7.0-windows\Generic.Library.deps.json
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\bin\Debug\net7.0-windows\Generic.Library.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\bin\Debug\net7.0-windows\Generic.Library.pdb
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\bin\Debug\net7.0-windows\MvCamCtrl.Net.dll
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\bin\Debug\net7.0-windows\MvCamCtrl.Net.xml
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\obj\Debug\net7.0-windows\Generic.Library.csproj.AssemblyReference.cache
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\obj\Debug\net7.0-windows\Generic.Library.GeneratedMSBuildEditorConfig.editorconfig
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\obj\Debug\net7.0-windows\Generic.Library.AssemblyInfoInputs.cache
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\obj\Debug\net7.0-windows\Generic.Library.AssemblyInfo.cs
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\obj\Debug\net7.0-windows\Generic.Library.csproj.CoreCompileInputs.cache
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\obj\Debug\net7.0-windows\Generic.Library.csproj.CopyComplete
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\obj\Debug\net7.0-windows\Generic.Library.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\obj\Debug\net7.0-windows\refint\Generic.Library.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.Library\obj\Debug\net7.0-windows\Generic.Library.pdb

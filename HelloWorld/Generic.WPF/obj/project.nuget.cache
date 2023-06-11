@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O3rxhskFJQLHzp/92nIhZNqViUMDGf7wJCfmG3yhO7ASm/F6cKL6plH0wVXgXdLZfS5RDzxPju35JFzTEP4zag==",
+  "dgSpecHash": "hmAw8y9PINHrOBYTectOxzF/EfMC1qKJ+bzxsnHO7B3QHPmIFTY7RMyainzjGMBcxjsjkN7CGp6JUkGowB7DVw==",
   "success": true,
   "projectFilePath": "D:\\Programming\\CSharp\\HelloWorldCSharpe\\HelloWorld\\Generic.WPF\\Generic.WPF.csproj",
   "expectedPackageFiles": [
@@ -30,8 +30,13 @@
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\7.0.0\\microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\mono.nat\\3.0.1\\mono.nat.3.0.1.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\monotorrent\\2.0.7\\monotorrent.2.0.7.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\reusabletasks\\2.0.0\\reusabletasks.2.0.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.1\\system.diagnostics.diagnosticsource.7.0.1.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],

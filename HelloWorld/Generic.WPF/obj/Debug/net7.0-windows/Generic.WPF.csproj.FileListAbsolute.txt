@@ -29,11 +29,18 @@ D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\bin\Debug\net7.0-
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\bin\Debug\net7.0-windows\Generic.Library.dll
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\bin\Debug\net7.0-windows\MvCamCtrl.Net.dll
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\bin\Debug\net7.0-windows\Generic.Library.pdb
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\bin\Debug\net7.0-windows\MvCamCtrl.Net.xml
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\Generic.WPF.csproj.AssemblyReference.cache
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\Resouces\Styles\DictionaryButtonStyles.baml
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\MainWindow.g.cs
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\App.g.cs
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\Generic.WPF_MarkupCompile.cache
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\Generic.WPF_MarkupCompile.lref
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\App.baml
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\MainWindow.baml
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\Generic.WPF.g.resources
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\Generic.WPF.GeneratedMSBuildEditorConfig.editorconfig
@@ -46,7 +53,3 @@ D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\Generic.WPF.pdb
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\Generic.WPF.genruntimeconfig.cache
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\ref\Generic.WPF.dll
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\bin\Debug\net7.0-windows\Generic.Library.dll
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\bin\Debug\net7.0-windows\Generic.Library.pdb
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\Generic.WPF\obj\Debug\net7.0-windows\App.baml

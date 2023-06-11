@@ -218,7 +218,7 @@ D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\n
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.423.11508.dll
+D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.523.17405.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 D:\Programming\CSharp\HelloWorldCSharpe\HelloWorld\MauiAppForAndroid\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll

@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "pz97k1PflfiHDjnwgVHn/Fi+cq8Txh6pes/dhH9ymGXiLhoAgJeuklsCCS5vi+n6gctzBg7ICqFq1rwwQ6yPMA==",
+  "dgSpecHash": "PtC0iJ1Zwa65EPqtOMbnTFO3KQ9iu1ys/NQA1ewTCnsFNZwmD6xvVwGZ8EdPOS4R0nGOdbOophLKkcxmsFSGMQ==",
   "success": true,
   "projectFilePath": "D:\\Programming\\CSharp\\HelloWorldCSharpe\\HelloWorld\\Generic.Library\\Generic.Library.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\JanlamWai\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512"
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\mono.nat\\3.0.1\\mono.nat.3.0.1.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\monotorrent\\2.0.7\\monotorrent.2.0.7.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\reusabletasks\\2.0.0\\reusabletasks.2.0.0.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

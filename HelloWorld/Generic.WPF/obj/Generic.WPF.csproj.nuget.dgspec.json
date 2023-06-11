@@ -48,6 +48,14 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.0, )"
+            },
+            "MonoTorrent": {
+              "target": "Package",
+              "version": "[2.0.7, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
