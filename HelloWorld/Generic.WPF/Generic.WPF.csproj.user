@@ -7,10 +7,18 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\PageEVA.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Resouces\Styles\DictionaryButtonStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\PageEVA.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

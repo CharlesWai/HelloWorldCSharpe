@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hmAw8y9PINHrOBYTectOxzF/EfMC1qKJ+bzxsnHO7B3QHPmIFTY7RMyainzjGMBcxjsjkN7CGp6JUkGowB7DVw==",
+  "dgSpecHash": "QsLwQSDZtmn6qugE7tdTkWMzT8uelVavSgGQGPnmjncbPTjTF39h/JXiw/I0Uj9T9+olioMalEMcmSTNJWXgvA==",
   "success": true,
   "projectFilePath": "D:\\Programming\\CSharp\\HelloWorldCSharpe\\HelloWorld\\Generic.WPF\\Generic.WPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JanlamWai\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\htmlagilitypack\\1.11.51\\htmlagilitypack.1.11.51.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.3\\microsoft.extensions.configuration.binder.7.0.3.nupkg.sha512",

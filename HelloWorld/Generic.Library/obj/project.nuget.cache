@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PtC0iJ1Zwa65EPqtOMbnTFO3KQ9iu1ys/NQA1ewTCnsFNZwmD6xvVwGZ8EdPOS4R0nGOdbOophLKkcxmsFSGMQ==",
+  "dgSpecHash": "VB0r7DginEP5lDj5GAvyaSO2UigWO64sGqb6eoEnIKOWBu8s1Ch5amYJOBTna9hvX3+/t75rKjX3CCpZnUF5nQ==",
   "success": true,
   "projectFilePath": "D:\\Programming\\CSharp\\HelloWorldCSharpe\\HelloWorld\\Generic.Library\\Generic.Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JanlamWai\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\htmlagilitypack\\1.11.51\\htmlagilitypack.1.11.51.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\mono.nat\\3.0.1\\mono.nat.3.0.1.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\monotorrent\\2.0.7\\monotorrent.2.0.7.nupkg.sha512",

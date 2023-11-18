@@ -9,6 +9,7 @@
       "Generic.Library/1.0.0": {
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.2.0",
+          "HtmlAgilityPack": "1.11.51",
           "MonoTorrent": "2.0.7",
           "System.Drawing.Common": "7.0.0",
           "MvCamCtrl.Net": "4.0.0.4"
@@ -22,6 +23,14 @@
           "lib/net6.0/CommunityToolkit.Mvvm.dll": {
             "assemblyVersion": "8.2.0.0",
             "fileVersion": "8.2.0.1"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.51": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.51.0",
+            "fileVersion": "1.11.51.0"
           }
         }
       },
@@ -81,6 +90,13 @@
       "sha512": "sha512-F883u+B0AVUkRZS+VQBiZEJiqlGiiQhGA8Ejy1/Y8fl4ecBmSd+HYuDso0iiUhh+UxRDjp2aTQ7jGkuL2S4NrA==",
       "path": "communitytoolkit.mvvm/8.2.0",
       "hashPath": "communitytoolkit.mvvm.8.2.0.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.51": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yRn0Vd6Smu69xGyRWIZVl/Ley2OMMCMwC9tZRR/GdXfxGYj1sGMT4KskWd8OP9dGlqaXPkyB0NzBHKejtZdbow==",
+      "path": "htmlagilitypack/1.11.51",
+      "hashPath": "htmlagilitypack.1.11.51.nupkg.sha512"
     },
     "Microsoft.Win32.SystemEvents/7.0.0": {
       "type": "package",

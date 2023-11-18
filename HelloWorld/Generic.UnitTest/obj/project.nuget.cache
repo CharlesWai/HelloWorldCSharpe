@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fP5yezOUrWEI7Xaue751jKX9+yso8LRnLYXJyfqvhI3A/DdOTDBjP/gi3uw4BJxFRjlbex1acqbXzdA5D7U/8g==",
+  "dgSpecHash": "HItDtxmVUzhyd1obH8odbAJl5llk7BdKY0uOM7NnXsDqqA1eWr8x0QLednoVSpDR169o9FVhWe0uyVCmUhp53w==",
   "success": true,
   "projectFilePath": "D:\\Programming\\CSharp\\HelloWorldCSharpe\\HelloWorld\\Generic.UnitTest\\Generic.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JanlamWai\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\JanlamWai\\.nuget\\packages\\htmlagilitypack\\1.11.51\\htmlagilitypack.1.11.51.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\JanlamWai\\.nuget\\packages\\microsoft.net.test.sdk\\17.3.2\\microsoft.net.test.sdk.17.3.2.nupkg.sha512",

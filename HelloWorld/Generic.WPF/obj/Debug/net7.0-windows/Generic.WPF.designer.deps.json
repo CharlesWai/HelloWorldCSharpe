@@ -14,6 +14,14 @@
           }
         }
       },
+      "HtmlAgilityPack/1.11.51": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.51.0",
+            "fileVersion": "1.11.51.0"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
@@ -347,6 +355,50 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Mono.Nat/3.0.1": {
+        "runtime": {
+          "lib/netstandard2.1/Mono.Nat.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "MonoTorrent/2.0.7": {
+        "dependencies": {
+          "Mono.Nat": "3.0.1",
+          "ReusableTasks": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MonoTorrent.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.0.7.0"
+          }
+        }
+      },
+      "ReusableTasks/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/ReusableTasks.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/7.0.1": {
         "runtime": {
           "lib/net7.0/System.Diagnostics.DiagnosticSource.dll": {
@@ -370,6 +422,25 @@
             "fileVersion": "0.0.0.0"
           },
           "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Drawing.Common.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "7.0.0.0",
@@ -413,6 +484,13 @@
       "sha512": "sha512-F883u+B0AVUkRZS+VQBiZEJiqlGiiQhGA8Ejy1/Y8fl4ecBmSd+HYuDso0iiUhh+UxRDjp2aTQ7jGkuL2S4NrA==",
       "path": "communitytoolkit.mvvm/8.2.0",
       "hashPath": "communitytoolkit.mvvm.8.2.0.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.51": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yRn0Vd6Smu69xGyRWIZVl/Ley2OMMCMwC9tZRR/GdXfxGYj1sGMT4KskWd8OP9dGlqaXPkyB0NzBHKejtZdbow==",
+      "path": "htmlagilitypack/1.11.51",
+      "hashPath": "htmlagilitypack.1.11.51.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
       "type": "package",
@@ -589,6 +667,34 @@
       "path": "microsoft.extensions.primitives/7.0.0",
       "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
     },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "hashPath": "microsoft.win32.systemevents.7.0.0.nupkg.sha512"
+    },
+    "Mono.Nat/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TLaz/q4i81y5nRyqBlJO2JS73JRyB1y6uhcgxhiyIn3MMIgH1mlTOPZNX7uUB0XYg6+7Igp4tFAqf/u+Unc3tw==",
+      "path": "mono.nat/3.0.1",
+      "hashPath": "mono.nat.3.0.1.nupkg.sha512"
+    },
+    "MonoTorrent/2.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xNzK9pD+U79/wB03ztOBv+7Pr8ra1nWmnLwcSPVQ2BkIL6yiiYiLVIGoECR9GTI5F2yRsQQv55hDbI7GsjYptA==",
+      "path": "monotorrent/2.0.7",
+      "hashPath": "monotorrent.2.0.7.nupkg.sha512"
+    },
+    "ReusableTasks/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HWb7Yy7dQfWPh0V4X42ounPkrzUvL6gB7bwshX7EqBDCl879iBQIS0TRrXFXKOTO2dNJxaEfXnAbX8Fzv3U7Cw==",
+      "path": "reusabletasks/2.0.0",
+      "hashPath": "reusabletasks.2.0.0.nupkg.sha512"
+    },
     "System.Diagnostics.DiagnosticSource/7.0.1": {
       "type": "package",
       "serviceable": true,
@@ -602,6 +708,13 @@
       "sha512": "sha512-eUDP47obqQm3SFJfP6z+Fx2nJ4KKTQbXB4Q9Uesnzw9SbYdhjyoGXuvDn/gEmFY6N5Z3bFFbpAQGA7m6hrYJCw==",
       "path": "system.diagnostics.eventlog/7.0.0",
       "hashPath": "system.diagnostics.eventlog.7.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "path": "system.drawing.common/7.0.0",
+      "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
     },
     "System.Text.Encodings.Web/7.0.0": {
       "type": "package",
